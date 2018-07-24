@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="tictactoe-icon.png">
+</head>
+<body>
+  <div id="game">
+    <div id="description">
+      <h1>Tic Tac Toe</h1>
+      <p>Fun level: 3/10</p><br>
+      <div class="tutorial">
+        <p>A Quick Guide</p><br>
+        <p class="guide">This game is played between two players. The players alternate on turns. Player 1 has a default move of 'X' and player 2 has a default move of 'O'. This is a competition between player 1 and 2 to complete a row, a column, or a diagonal with their assigned letters.</p>
+      </div>
+    </div>
+
+    <div id="board">
+      <h1 id="winner">Playing with a Friend</h1><br>
+      <button class="button" id="start">Start Game</button>
+      <div class="row">
+        <div class="box" id="1">X</div>
+        <div class="box" id="2">O</div>
+        <div class="box" id="3">X</div>
+      </div>
+      <div class="row">
+        <div class="box" id="4">X</div>
+        <div class="box" id="5">O</div>
+        <div class="box" id="6">X</div>
+      </div>
+      <div class="row">
+        <div class="box" id="7">X</div>
+        <div class="box" id="8">O</div>
+        <div class="box" id="9">X</div>
+      </div>
+      <h5 id="turn"></h5>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
